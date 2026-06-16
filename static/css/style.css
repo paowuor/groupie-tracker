@@ -1,0 +1,14 @@
+:root {
+    --bg-main: #0a0a14;
+    --bg-surface: #121226;
+    --bg-header: #06060c;
+
+    --text-primary: #f8fafc;
+    --text-secondary: #94a394;
+
+    --accent-purple: #8b5cf6;
+    --accent-mint: #10b981;
+    --accent-rose: #f43f5e;
+
+    --border-subtle: #22223b;
+}
