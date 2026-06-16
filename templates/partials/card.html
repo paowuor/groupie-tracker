@@ -1,0 +1,10 @@
+{{define "artist-card"}}
+<article class="artist-card">
+    <img src="{{.Image}}" alt="{{.Name}}" class="card-thumb" loading="lazy">
+    <div class="card-body">
+        <h3>{{.Name}}</h3>
+        <p class="meta-txt">Formed: {{.CreationDate}}</p>
+        <a href="/artist?id={{.ID}}" class="btn-primary">Explore Tour</a>
+    </div>
+</article>
+{{end}}
